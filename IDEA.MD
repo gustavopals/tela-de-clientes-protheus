@@ -1385,12 +1385,12 @@ Criar:
 
 ```text
 src/app/features/clientes/
-├─ components/
-├─ data/
-├─ mappers/
-├─ models/
-├─ pages/
-└─ utils/
+├─ components/ [x]
+├─ data/ [x]
+├─ mappers/ [x]
+├─ models/ [x]
+├─ pages/ [x]
+└─ utils/ [x]
 ```
 
 #### 5.2. Criar arquivo de rotas
@@ -1401,6 +1401,8 @@ Arquivo:
 src/app/features/clientes/clientes.routes.ts
 ```
 
+- [x] Arquivo `clientes.routes.ts` criado.
+
 Rotas:
 
 ```ts
@@ -1410,6 +1412,8 @@ export const CLIENTES_ROUTES: Routes = [
   { path: ':filial/:cod/:loja/editar', component: ClienteEditPageComponent }
 ];
 ```
+
+- [x] Rotas da feature clientes definidas.
 
 #### 5.3. Integrar rotas no app
 
@@ -1422,11 +1426,13 @@ No `app.routes.ts` ou módulo de rotas:
 }
 ```
 
+- [x] Rota `/clientes` integrada ao app com `loadChildren`.
+
 ### Critério de aceite
 
-- Rotas criadas.
-- Feature isolada.
-- Navegação para `/clientes` funcional, mesmo que tela ainda esteja vazia.
+- [x] Rotas criadas.
+- [x] Feature isolada.
+- [x] Navegação para `/clientes` funcional, mesmo que tela ainda esteja vazia.
 
 ---
 
