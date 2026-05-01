@@ -9,9 +9,6 @@ import { PoMenuItem } from '@po-ui/ng-components';
   standalone: false
 })
 export class App {
-  readonly menus: PoMenuItem[] = [{ label: 'Home', action: this.onClick.bind(this) }];
-
-  private onClick() {
-    alert('Clicked in menu item');
-  }
+  readonly appTitle = 'Cadastro de Clientes Protheus';
+  readonly menus: PoMenuItem[] = [];
 }

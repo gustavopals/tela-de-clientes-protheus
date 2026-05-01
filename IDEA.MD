@@ -1331,9 +1331,9 @@ Criar estrutura visual principal com PO-UI.
 
 Componentes:
 
-- `po-toolbar`
-- `po-menu`
-- `router-outlet`
+- [x] `po-toolbar`
+- [x] `po-menu`
+- [x] `router-outlet`
 
 #### 4.2. Configurar menu
 
