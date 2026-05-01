@@ -10,5 +10,5 @@ import { PoMenuItem } from '@po-ui/ng-components';
 })
 export class App {
   readonly appTitle = 'Cadastro de Clientes Protheus';
-  readonly menus: PoMenuItem[] = [];
+  readonly menus: PoMenuItem[] = [{ label: 'Clientes', link: '/clientes', icon: 'po-icon-users' }];
 }

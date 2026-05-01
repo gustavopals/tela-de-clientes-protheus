@@ -1340,7 +1340,7 @@ Componentes:
 Itens:
 
 - Dashboard futuro, se desejado.
-- Clientes.
+- [x] Clientes.
 
 Inicialmente:
 
@@ -1350,22 +1350,24 @@ readonly menus: PoMenuItem[] = [
 ];
 ```
 
+- [x] Menu inicial configurado com item Clientes.
+
 #### 4.3. Configurar rota raiz
 
-- `/` redireciona para `/clientes`.
-- Rota wildcard redireciona para `/clientes` ou tela 404 simples.
+- [x] `/` redireciona para `/clientes`.
+- [x] Rota wildcard redireciona para `/clientes` ou tela 404 simples.
 
 #### 4.4. Criar estilos globais mínimos
 
-- Ajustar espaçamento.
-- Evitar customização excessiva do PO-UI.
-- Criar classes utilitárias pontuais se necessário.
+- [x] Ajustar espaçamento.
+- [x] Evitar customização excessiva do PO-UI.
+- [x] Criar classes utilitárias pontuais se necessário.
 
 ### Critério de aceite
 
-- Aplicação abre com menu lateral.
-- Clique em Clientes navega para rota `/clientes`.
-- Layout visual está limpo e padronizado.
+- [x] Aplicação abre com menu lateral.
+- [x] Clique em Clientes navega para rota `/clientes`.
+- [x] Layout visual está limpo e padronizado.
 
 ---
 
