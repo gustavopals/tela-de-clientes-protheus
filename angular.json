@@ -38,10 +38,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "./node_modules/@po-ui/style/css/po-theme-default.min.css",
-              "src/styles.scss"
-            ],
+            "styles": ["./node_modules/@po-ui/style/css/po-theme-default.min.css", "src/styles.scss"],
             "polyfills": ["zone.js"]
           },
           "configurations": {

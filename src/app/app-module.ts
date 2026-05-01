@@ -11,6 +11,6 @@ import { PoTemplatesModule } from '@po-ui/ng-templates';
   declarations: [App],
   imports: [BrowserModule, AppRoutingModule, PoModule, PoTemplatesModule],
   providers: [provideBrowserGlobalErrorListeners(), provideHttpClient(withInterceptorsFromDi())],
-  bootstrap: [App],
+  bootstrap: [App]
 })
 export class AppModule {}

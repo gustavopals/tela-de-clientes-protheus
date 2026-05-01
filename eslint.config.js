@@ -3,6 +3,7 @@ const eslint = require('@eslint/js');
 const { defineConfig } = require('eslint/config');
 const tseslint = require('typescript-eslint');
 const angular = require('angular-eslint');
+const eslintConfigPrettier = require('eslint-config-prettier/flat');
 
 module.exports = defineConfig([
   {
@@ -11,7 +12,7 @@ module.exports = defineConfig([
       eslint.configs.recommended,
       tseslint.configs.recommended,
       tseslint.configs.stylistic,
-      angular.configs.tsRecommended,
+      angular.configs.tsRecommended
     ],
     processor: angular.processInlineTemplates,
     rules: {
@@ -20,22 +21,24 @@ module.exports = defineConfig([
         {
           type: 'attribute',
           prefix: 'app',
-          style: 'camelCase',
-        },
+          style: 'camelCase'
+        }
       ],
       '@angular-eslint/component-selector': [
         'error',
         {
           type: 'element',
           prefix: 'app',
-          style: 'kebab-case',
-        },
+          style: 'kebab-case'
+        }
       ],
-    },
+      '@angular-eslint/prefer-standalone': 'off'
+    }
   },
   {
     files: ['**/*.html'],
     extends: [angular.configs.templateRecommended, angular.configs.templateAccessibility],
-    rules: {},
+    rules: {}
   },
+  eslintConfigPrettier
 ]);

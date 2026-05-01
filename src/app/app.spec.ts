@@ -9,14 +9,8 @@ import { App } from './app';
 describe('App', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        PoMenuModule,
-        PoPageModule,
-        PoToolbarModule,
-        HttpClientTestingModule,
-        RouterTestingModule,
-      ],
-      declarations: [App],
+      imports: [PoMenuModule, PoPageModule, PoToolbarModule, HttpClientTestingModule, RouterTestingModule],
+      declarations: [App]
     }).compileComponents();
   });
 

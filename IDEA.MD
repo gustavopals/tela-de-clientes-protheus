@@ -580,21 +580,21 @@ Exibir uma tabela consultável de clientes da SA1.
 
 Colunas recomendadas:
 
-| Campo | Label | Observação |
-|---|---|---|
-| `A1_FILIAL` | Filial | Parte da chave |
-| `A1_COD` | Código | Parte da chave |
-| `A1_LOJA` | Loja | Parte da chave |
-| `A1_NOME` | Razão Social | Principal |
-| `A1_NREDUZ` | Nome Fantasia | Secundário |
-| `A1_TIPO` | Tipo | Física/Jurídica |
-| `A1_CGC` | CPF/CNPJ | Exibir formatado |
-| `A1_EST` | UF | Estado |
-| `A1_MUN` | Município | Cidade |
-| `A1_EMAIL` | E-mail | Comunicação |
-| `A1_MSBLQL` | Status | Tag Ativo/Bloqueado |
-| `A1_LC` | Limite Crédito | Moeda |
-| `A1_MSALDO` | Saldo Devedor | Moeda |
+| Campo       | Label          | Observação          |
+| ----------- | -------------- | ------------------- |
+| `A1_FILIAL` | Filial         | Parte da chave      |
+| `A1_COD`    | Código         | Parte da chave      |
+| `A1_LOJA`   | Loja           | Parte da chave      |
+| `A1_NOME`   | Razão Social   | Principal           |
+| `A1_NREDUZ` | Nome Fantasia  | Secundário          |
+| `A1_TIPO`   | Tipo           | Física/Jurídica     |
+| `A1_CGC`    | CPF/CNPJ       | Exibir formatado    |
+| `A1_EST`    | UF             | Estado              |
+| `A1_MUN`    | Município      | Cidade              |
+| `A1_EMAIL`  | E-mail         | Comunicação         |
+| `A1_MSBLQL` | Status         | Tag Ativo/Bloqueado |
+| `A1_LC`     | Limite Crédito | Moeda               |
+| `A1_MSALDO` | Saldo Devedor  | Moeda               |
 
 ### Filtros recomendados
 
@@ -1256,11 +1256,15 @@ Padronizar lint, formatação e configurações do editor.
 ng add angular-eslint
 ```
 
+- [x] ESLint instalado e configurado com Angular ESLint.
+
 #### 3.2. Instalar Prettier
 
 ```bash
 npm install -D prettier eslint-config-prettier
 ```
+
+- [x] Prettier e eslint-config-prettier instalados.
 
 #### 3.3. Criar `.prettierrc`
 
@@ -1272,6 +1276,8 @@ npm install -D prettier eslint-config-prettier
   "trailingComma": "none"
 }
 ```
+
+- [x] `.prettierrc` criado conforme padrão definido.
 
 #### 3.4. Criar `.vscode/settings.json`
 
@@ -1285,29 +1291,31 @@ Configurações sugeridas:
 }
 ```
 
+- [x] `.vscode/settings.json` criado.
+
 #### 3.5. Criar `.vscode/extensions.json`
 
 Recomendar extensões:
 
 ```json
 {
-  "recommendations": [
-    "angular.ng-template",
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint"
-  ]
+  "recommendations": ["angular.ng-template", "esbenp.prettier-vscode", "dbaeumer.vscode-eslint"]
 }
 ```
+
+- [x] `.vscode/extensions.json` atualizado.
 
 #### 3.6. Ajustar scripts
 
 Adicionar scripts de lint e format no `package.json`.
 
+- [x] Scripts `lint`, `format` e `format:check` configurados.
+
 ### Critério de aceite
 
-- `npm run lint` funciona.
-- `npm run format:check` funciona.
-- Projeto mantém estilo consistente.
+- [x] `npm run lint` funciona.
+- [x] `npm run format:check` funciona.
+- [x] Projeto mantém estilo consistente.
 
 ---
 
@@ -2070,7 +2078,7 @@ git tag v0.1.0-frontend-dummy
 - [ ] `docs/CONVENCOES.md` criado.
 - [ ] `docs/PROMPTS-CODEX.md` criado.
 - [x] `npm run build` aprovado.
-- [ ] `npm run lint` aprovado.
+- [x] `npm run lint` aprovado.
 - [ ] Testes principais aprovados.
 
 ---

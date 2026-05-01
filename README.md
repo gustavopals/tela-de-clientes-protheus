@@ -45,6 +45,13 @@ Valide o build:
 npm run build
 ```
 
+Valide lint e formatacao:
+
+```bash
+npm run lint
+npm run format:check
+```
+
 ## Status
 
-Repositorio inicial criado, aplicacao Angular base gerada e PO-UI instalado. A implementacao seguira o roadmap descrito no `IDEA.MD`, uma fase por vez.
+Repositorio inicial criado, aplicacao Angular base gerada, PO-UI instalado e qualidade de codigo configurada. A implementacao seguira o roadmap descrito no `IDEA.MD`, uma fase por vez.
