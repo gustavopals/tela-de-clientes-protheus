@@ -1121,21 +1121,21 @@ Criar a base do repositório e garantir que o ambiente local esteja pronto.
 
 #### 0.2. Validar Node e npm
 
-- Executar `node -v`.
-- Confirmar `v22.17.1`.
-- Executar `npm -v`.
-- Registrar versões no README.
+- [x] Executar `node -v`.
+- [x] Confirmar `v22.17.1`.
+- [x] Executar `npm -v`.
+- [x] Registrar versões no README.
 
 #### 0.3. Criar arquivo IDEA.MD
 
-- Salvar este documento na raiz do repositório.
-- Garantir que o Codex sempre consulte este arquivo antes de implementar.
+- [x] Salvar este documento na raiz do repositório.
+- [x] Garantir que o Codex sempre consulte este arquivo antes de implementar.
 
 ### Critério de aceite
 
-- Repositório criado.
-- IDEA.MD salvo na raiz.
-- Ambiente Node validado.
+- [x] Repositório criado.
+- [x] IDEA.MD salvo na raiz.
+- [x] Ambiente Node validado.
 
 ---
 
@@ -1155,11 +1155,15 @@ Executar:
 npx -p @angular/cli@21.2.4 ng new protheus-sa1-clientes-frontend --routing --style=scss --strict --standalone=false
 ```
 
+- [x] Projeto Angular gerado com roteamento, SCSS e strict mode.
+
 #### 1.2. Entrar no projeto
 
 ```bash
 cd protheus-sa1-clientes-frontend
 ```
+
+- [x] Estrutura do projeto posicionada em `/opt/tela-de-clientes-protheus`.
 
 #### 1.3. Subir aplicação inicial
 
@@ -1167,16 +1171,20 @@ cd protheus-sa1-clientes-frontend
 npm start
 ```
 
+- [x] Aplicação inicial validada em `http://127.0.0.1:4200/`.
+
 #### 1.4. Validar build
 
 ```bash
 npm run build
 ```
 
+- [x] Build inicial executado sem erro.
+
 ### Critério de aceite
 
-- Angular rodando em `http://localhost:4200`.
-- Build inicial executado sem erro.
+- [x] Angular rodando em `http://localhost:4200`.
+- [x] Build inicial executado sem erro.
 
 ---
 
@@ -1196,9 +1204,9 @@ ng add @po-ui/ng-components
 
 Subtasks:
 
-- Aceitar configuração de tema.
-- Aceitar estrutura inicial com menu/toolbar se perguntado.
-- Confirmar imports adicionados.
+- [x] Aceitar configuração de tema.
+- [x] Aceitar estrutura inicial com menu/toolbar se perguntado.
+- [x] Confirmar imports adicionados.
 
 #### 2.2. Instalar templates
 
@@ -1208,8 +1216,8 @@ ng add @po-ui/ng-templates
 
 Subtasks:
 
-- Confirmar instalação do pacote.
-- Confirmar configuração do módulo/template.
+- [x] Confirmar instalação do pacote.
+- [x] Confirmar configuração do módulo/template.
 
 #### 2.3. Testar aplicação
 
@@ -1217,18 +1225,20 @@ Subtasks:
 npm start
 ```
 
+- [x] Aplicação validada com `npm start` e resposta HTTP 200.
+
 #### 2.4. Corrigir eventuais conflitos de dependência
 
-- Verificar `package.json`.
-- Confirmar Angular `~21.2.4`.
-- Confirmar TypeScript `~5.9.x`.
-- Confirmar RxJS `~7.8.x`.
+- [x] Verificar `package.json`.
+- [x] Confirmar Angular `~21.2.4`.
+- [x] Confirmar TypeScript `~5.9.x`.
+- [x] Confirmar RxJS `~7.8.x`.
 
 ### Critério de aceite
 
-- PO-UI instalado.
-- Aplicação sobe sem erro.
-- Tema PO-UI aplicado.
+- [x] PO-UI instalado.
+- [x] Aplicação sobe sem erro.
+- [x] Tema PO-UI aplicado.
 
 ---
 
@@ -2034,12 +2044,12 @@ git tag v0.1.0-frontend-dummy
 
 # 19. Checklist final de entrega da versão frontend dummy
 
-- [ ] Repositório criado.
-- [ ] Angular `~21.2.4` instalado.
-- [ ] Node `v22.17.1` validado.
-- [ ] PO-UI Components instalado.
-- [ ] PO-UI Templates instalado.
-- [ ] Layout base com menu e toolbar.
+- [x] Repositório criado.
+- [x] Angular `~21.2.4` instalado.
+- [x] Node `v22.17.1` validado.
+- [x] PO-UI Components instalado.
+- [x] PO-UI Templates instalado.
+- [x] Layout base com menu e toolbar.
 - [ ] Rota `/clientes` criada.
 - [ ] Rota `/clientes/:filial/:cod/:loja` criada.
 - [ ] Rota `/clientes/:filial/:cod/:loja/editar` criada.
@@ -2059,7 +2069,7 @@ git tag v0.1.0-frontend-dummy
 - [ ] `docs/API-FUTURA.md` criado.
 - [ ] `docs/CONVENCOES.md` criado.
 - [ ] `docs/PROMPTS-CODEX.md` criado.
-- [ ] `npm run build` aprovado.
+- [x] `npm run build` aprovado.
 - [ ] `npm run lint` aprovado.
 - [ ] Testes principais aprovados.
 
